@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">AlMoqata3a</string>
+    <string name="title_activity_main">AlMoqata3a</string>
+    <string name="package_name">com.almoqata3a.game</string>
+    <string name="custom_url_scheme">com.almoqata3a.game</string>
+</resources>

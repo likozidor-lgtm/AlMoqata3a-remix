@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <rect width="64" height="64" rx="14" fill="#0f172a" stroke="#ca8a04" stroke-width="2"/>
+  <!-- Stamp top cap -->
+  <path d="M 21 16 C 21 8, 43 8, 43 16 Z" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+  <!-- Window -->
+  <rect x="25" y="11" width="14" height="9" rx="2" fill="#fef08a" stroke="#ca8a04" stroke-width="0.8"/>
+  <text x="32" y="17.5" font-family="sans-serif" font-size="5" font-weight="900" fill="#b91c1c" text-anchor="middle">MQ</text>
+  <!-- Body -->
+  <rect x="20" y="16" width="24" height="15" rx="3" fill="#2563eb" stroke="#1e3a8a" stroke-width="1.2"/>
+  <!-- Ink slot -->
+  <rect x="18" y="31" width="28" height="4" rx="1" fill="#ef4444"/>
+  <!-- Legs -->
+  <rect x="17" y="24" width="3" height="12" fill="#94a3b8"/>
+  <rect x="44" y="24" width="3" height="12" fill="#94a3b8"/>
+  <!-- Seal base -->
+  <rect x="10" y="38" width="44" height="20" rx="3" fill="#090d16" stroke="#eab308" stroke-width="1.5"/>
+  <text x="32" y="52" font-family="'Cairo', sans-serif" font-size="9" font-weight="900" fill="#facc15" text-anchor="middle">المقاطعة</text>
+</svg>

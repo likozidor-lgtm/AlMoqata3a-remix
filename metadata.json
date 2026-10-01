@@ -1,0 +1,8 @@
+{
+  "name": "AlMoqata3a",
+  "description": "AlMoqata3a (المقاطعة) - لعبة محاكاة واقعية لإدارة المقاطعة المغربية وفحص الوثائق والأختام والقرارات الإدارية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

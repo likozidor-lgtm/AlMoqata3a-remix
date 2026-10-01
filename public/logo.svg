@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+
+    <!-- Stamp Blue Body Gradients -->
+    <linearGradient id="stampBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="25%" stop-color="#2563eb" />
+      <stop offset="60%" stop-color="#3b82f6" />
+      <stop offset="85%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+
+    <linearGradient id="stampCapGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="40%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <linearGradient id="glassReflection" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="goldSeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <linearGradient id="redInkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+
+    <!-- Shadow filters -->
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+    <filter id="glowGold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Container Badge -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGlow)" stroke="#334155" stroke-width="4" />
+
+  <!-- Subtle Moroccan Ornamental Outer Ring -->
+  <circle cx="256" cy="256" r="226" fill="none" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4" />
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#eab308" stroke-width="1" opacity="0.25" />
+
+  <!-- 3D SELF-INKING STAMP DEVICE (Cachet Automatique Trodat Style) -->
+  <g filter="url(#dropShadow)" transform="translate(0, -10)">
+
+    <!-- Bottom Base Ring & Stamp Contact Surface -->
+    <ellipse cx="256" cy="340" rx="142" ry="24" fill="#090d16" opacity="0.9" />
+
+    <!-- Transparent Lower Skirt / Clear Base where paper is visible -->
+    <path d="M 144 260 L 126 318 C 126 318 190 338 256 338 C 322 338 386 318 386 318 L 368 260 Z"
+          fill="#334155" opacity="0.35" stroke="#475569" stroke-width="2" />
+
+    <!-- Red Ink Pad Chamber (Horizontal Slot in the middle) -->
+    <rect x="146" y="246" width="220" height="18" rx="4" fill="#7f1d1d" stroke="#991b1b" stroke-width="2" />
+    <rect x="150" y="250" width="212" height="10" rx="2" fill="url(#redInkGrad)" />
+
+    <!-- Metal Piston Mechanism / Sliding Shafts on sides -->
+    <rect x="140" y="190" width="12" height="66" rx="3" fill="#94a3b8" stroke="#475569" stroke-width="1.5" />
+    <rect x="360" y="190" width="12" height="66" rx="3" fill="#94a3b8" stroke="#475569" stroke-width="1.5" />
+
+    <!-- Main Plastic Casing Body (Royal Blue) -->
+    <rect x="156" y="140" width="200" height="110" rx="20" fill="url(#stampBlueGrad)" stroke="#1e3a8a" stroke-width="3" />
+
+    <!-- Side Anti-Slip Textured Grip Ridges -->
+    <g fill="#1e40af" opacity="0.8">
+      <circle cx="168" cy="165" r="3.5" /><circle cx="168" cy="180" r="3.5" /><circle cx="168" cy="195" r="3.5" /><circle cx="168" cy="210" r="3.5" />
+      <circle cx="178" cy="172" r="3" /><circle cx="178" cy="187" r="3" /><circle cx="178" cy="202" r="3" />
+      <circle cx="344" cy="165" r="3.5" /><circle cx="344" cy="180" r="3.5" /><circle cx="344" cy="195" r="3.5" /><circle cx="344" cy="210" r="3.5" />
+      <circle cx="334" cy="172" r="3" /><circle cx="334" cy="187" r="3" /><circle cx="334" cy="202" r="3" />
+    </g>
+
+    <!-- Top Cap Curved Handle -->
+    <path d="M 166 142 C 166 82, 346 82, 346 142 Z" fill="url(#stampCapGrad)" stroke="#1d4ed8" stroke-width="2.5" />
+
+    <!-- Front Transparent Index Card Window (Cadre transparent d'identification) -->
+    <rect x="194" y="98" width="124" height="74" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Inside Index Card Content -->
+    <rect x="198" y="102" width="116" height="66" rx="6" fill="#fefce8" stroke="#facc15" stroke-width="1.2" />
+
+    <!-- Index Card Arabic & Latin Text -->
+    <text x="256" y="118" font-family="'Cairo', 'Tajawal', sans-serif" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">
+      المملكة المغربية
+    </text>
+    <text x="256" y="138" font-family="'Cairo', 'Tajawal', sans-serif" font-size="14" font-weight="900" fill="#b91c1c" text-anchor="middle" letter-spacing="1">
+      AlMoqata3a
+    </text>
+    <text x="256" y="156" font-family="'Cairo', 'Tajawal', sans-serif" font-size="11" font-weight="bold" fill="#1e3a8a" text-anchor="middle">
+      المقاطعة الحضرية
+    </text>
+
+    <!-- Acrylic Window Glass Reflection Highlight -->
+    <path d="M 194 98 L 270 98 L 220 172 L 194 172 Z" fill="url(#glassReflection)" pointer-events="none" />
+
+    <!-- Stamp Lock Button on right side -->
+    <rect x="354" y="170" width="8" height="24" rx="3" fill="#dc2626" stroke="#991b1b" stroke-width="1" />
+  </g>
+
+  <!-- THE OFFICIAL MOROCCAN STAMPED SEAL (Underneath, in front) -->
+  <g transform="translate(256, 370)" filter="url(#glowGold)">
+    <!-- Stamp Paper Placard / Label Badge -->
+    <rect x="-170" y="-30" width="340" height="82" rx="14" fill="#0f172a" stroke="#eab308" stroke-width="2.5" />
+    <rect x="-164" y="-24" width="328" height="70" rx="10" fill="#18181b" stroke="#ca8a04" stroke-width="1" stroke-dasharray="4 3" />
+
+    <!-- Left & Right Moroccan Administrative Stars -->
+    <path d="M -136 11 L -133 2 L -125 0 L -131 -6 L -130 -15 L -138 -10 L -146 -15 L -144 -6 L -151 0 L -142 2 Z" fill="#22c55e" stroke="#15803d" stroke-width="1" />
+    <path d="M 136 11 L 139 2 L 147 0 L 141 -6 L 142 -15 L 134 -10 L 126 -15 L 128 -6 L 121 0 L 130 2 Z" fill="#22c55e" stroke="#15803d" stroke-width="1" />
+
+    <!-- Main Title "AlMoqata3a" -->
+    <text x="0" y="12" font-family="'Cairo', 'Tajawal', system-ui, sans-serif" font-size="34" font-weight="900" fill="url(#goldSeal)" text-anchor="middle" letter-spacing="2">
+      AlMoqata3a
+    </text>
+
+    <!-- Subtitle: المقاطعة الحضرية -->
+    <text x="0" y="36" font-family="'Cairo', 'Tajawal', sans-serif" font-size="15" font-weight="700" fill="#fde047" text-anchor="middle" letter-spacing="1">
+      المقاطعة · طنجة - بني مكادة
+    </text>
+  </g>
+</svg>

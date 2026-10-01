@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle gold outer ornamental ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#66CA8A04"
+        android:strokeWidth="1.2"
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14 Z" />
+
+    <!-- Stamp top handle -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M40,36 C40,24 68,24 68,36 Z" />
+
+    <!-- Label index window on top handle -->
+    <path
+        android:fillColor="#FEF9C3"
+        android:strokeColor="#CA8A04"
+        android:strokeWidth="0.8"
+        android:pathData="M46,26 L62,26 A2,2 0 0,1 64,28 L64,34 A2,2 0 0,1 62,36 L46,36 A2,2 0 0,1 44,34 L44,28 A2,2 0 0,1 46,26 Z" />
+
+    <!-- Chrome slider side posts -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M37,42 L40,42 L40,62 L37,62 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M68,42 L71,42 L71,62 L68,62 Z" />
+
+    <!-- Main blue plastic casing -->
+    <path
+        android:fillColor="#2563EB"
+        android:strokeColor="#1E40AF"
+        android:strokeWidth="1"
+        android:pathData="M40,36 L68,36 A3,3 0 0,1 71,39 L71,55 A3,3 0 0,1 68,58 L40,58 A3,3 0 0,1 37,55 L37,39 A3,3 0 0,1 40,36 Z" />
+
+    <!-- Red ink pad slot -->
+    <path
+        android:fillColor="#EF4444"
+        android:strokeColor="#991B1B"
+        android:strokeWidth="0.5"
+        android:pathData="M35,58 L73,58 A1,1 0 0,1 74,59 L74,62 A1,1 0 0,1 73,63 L35,63 A1,1 0 0,1 34,62 L34,59 A1,1 0 0,1 35,58 Z" />
+
+    <!-- Transparent base skirt -->
+    <path
+        android:fillColor="#33475569"
+        android:strokeColor="#64748B"
+        android:strokeWidth="0.8"
+        android:pathData="M34,63 L74,63 L76,72 L32,72 Z" />
+
+    <!-- Golden administrative seal placard underneath -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#EAB308"
+        android:strokeWidth="1.5"
+        android:pathData="M24,74 L84,74 A3,3 0 0,1 87,77 L87,89 A3,3 0 0,1 84,92 L24,92 A3,3 0 0,1 21,89 L21,77 A3,3 0 0,1 24,74 Z" />
+
+    <!-- Inner gold dashed border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CA8A04"
+        android:strokeWidth="0.8"
+        android:pathData="M26,76 L82,76 A2,2 0 0,1 84,78 L84,88 A2,2 0 0,1 82,90 L26,90 A2,2 0 0,1 24,88 L24,78 A2,2 0 0,1 26,76 Z" />
+
+    <!-- Moroccan Green Star in center of seal -->
+    <path
+        android:fillColor="#22C55E"
+        android:strokeColor="#15803D"
+        android:strokeWidth="0.6"
+        android:pathData="M54,78.5 L55.6,82 L59.3,82.3 L56.5,84.7 L57.3,88.3 L54,86.3 L50.7,88.3 L51.5,84.7 L48.7,82.3 L52.4,82 Z" />
+
+    <!-- Small side stars -->
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M33,81 L34,83 L36,83 L34.5,84.5 L35,86.5 L33,85.5 L31,86.5 L31.5,84.5 L30,83 L32,83 Z" />
+    <path
+        android:fillColor="#EAB308"
+        android:pathData="M75,81 L76,83 L78,83 L76.5,84.5 L77,86.5 L75,85.5 L73,86.5 L73.5,84.5 L72,83 L74,83 Z" />
+</vector>
