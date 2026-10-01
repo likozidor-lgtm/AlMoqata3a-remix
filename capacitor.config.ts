@@ -4,12 +4,15 @@ const config: CapacitorConfig = {
   appId: 'com.almoqata3a.game',
   appName: 'AlMoqata3a',
   webDir: 'dist',
+
   android: {
     backgroundColor: '#0c0a09',
     allowMixedContent: false,
     captureInput: true,
     webContentsDebuggingEnabled: false,
+    adjustMarginsForEdgeToEdge: 'force',
   },
+
   plugins: {
     // Web Audio and WebView persistence settings
   },
